@@ -12,12 +12,6 @@ import '@/common/styles/globals.css';
 import CommandPalette from '@/common/components/elements/CommandPalette';
 import Layout from '@/common/components/layouts';
 import { CommandPaletteProvider } from '@/common/context/CommandPaletteContext';
-import {
-  firaCode,
-  jakartaSans,
-  onestSans,
-  soraSans,
-} from '@/common/styles/fonts';
 
 import defaultSEOConfig from '../../next-seo.config';
 
@@ -39,10 +33,21 @@ const App = ({ Component, pageProps }: AppProps) => {
       <style jsx global>
         {`
           html {
-            --jakartaSans-font: ${jakartaSans.style.fontFamily};
-            --soraSans-font: ${soraSans.style.fontFamily};
-            --firaCode-font: ${firaCode.style.fontFamily};
-            --onestSans-font: ${onestSans.style.fontFamily};
+            --jakartaSans-font:
+              ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+              'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+              'Liberation Sans', sans-serif;
+            --soraSans-font:
+              ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+              'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+              'Liberation Sans', sans-serif;
+            --firaCode-font:
+              ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+              'Liberation Mono', 'Courier New', monospace;
+            --onestSans-font:
+              ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+              'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+              'Liberation Sans', sans-serif;
           }
         `}
       </style>
