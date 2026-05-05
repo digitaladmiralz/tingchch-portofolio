@@ -8,8 +8,8 @@ export const EDUCATION: EducationProps[] = [
     logo: '',
     location: 'Boulder, Colorado 🇺🇸',
     degree: "Bachelor's degree",
-    start_year: 1999,
-    end_year: 2004,
+    start_year: 2013,
+    end_year: 2019,
     link: 'https://www.colorado.edu',
   },
 ];
