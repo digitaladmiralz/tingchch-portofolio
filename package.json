@@ -8,7 +8,7 @@
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint src --fix && yarn format",
+    "lint:fix": "eslint src --fix && npm run format",
     "typecheck": "tsc --noEmit --incremental false",
     "format": "prettier --write .",
     "format:check": "prettier -c .",
@@ -101,7 +101,7 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,html,css,json}": [
-      "yarn prettier --write"
+      "prettier --write"
     ]
   }
 }
