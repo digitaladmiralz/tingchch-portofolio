@@ -3,18 +3,18 @@ export const ABOUT = `
     Hello! Thanks for visiting my portfolio.
 </p>
 <p>
-    I'm Ting Chi Chen, an architectural project manager and BIM/3D specialist with a Bachelor of Architecture (Environmental Design) from the University of Colorado Boulder. I work <strong>fully remote</strong> and I'm currently based in <strong>Taipei, Taiwan</strong>.
+    I'm Ting Chi Chen, a BIM/VDC specialist and construction technology consultant with a background in federated model coordination, scan-to-BIM, and digital delivery for AEC teams. I earned my Environmental Design BArch from the University of Colorado Boulder and I work <strong>fully remote</strong> while collaborating across time zones.
 </p>
 <p>
-    My project background is strongest in the U.S.—especially Colorado and several western states—where I've delivered multifamily, single-family production and custom homes, remodels, Class A office and TI work, aviation-related 3D modeling, K–8 education, and community facilities. Today I collaborate with teams and clients across time zones using the same workflows: coordinated models, clear documentation, and reliable communication.
+    Most recently I founded <strong>SENBIM</strong> (June 2025–present), delivering BIM services in the U.S. and Africa-scan-to-BIM, architectural/structural/MEP modeling, coordination and clash detection, and workflow consulting to help teams adopt consistent, reliable BIM execution.
 </p>
 <p>
-    Since 2010 I've led work from schematic design and design development through construction documents, contract and construction administration, billing, scheduling, and guiding drafters. From 2005 to 2020 I owned PR Construction, which still shapes how I think about what actually gets built on site.
+    Before SENBIM, I supported large-scale project delivery as a <strong>Senior BIM/VDC Specialist</strong> at <strong>JE Dunn</strong> (Oct 2022–Jun 2025), leading MEP coordination for complex facilities (including cleanrooms, sub-fabs, and central utility buildings). I managed federated models in Revit and Navisworks, ran weekly clash detection with BIM 360/ACC workflows, coordinated point clouds for as-built QA/QC, and helped field teams use BIM effectively.
 </p>
 <p>
-    Whether you need remote PM support, BIM coordination, or presentation-ready 3D and drawings, I focus on deliverables teams can execute—not just good-looking renders.
+    Earlier, as a <strong>Senior VDC Specialist</strong> at <strong>Viateknik</strong> (Jun 2021–Feb 2022), I delivered MEP coordination, as-built modeling, and BIM support for facility management and operations.
 </p>
 <p>
-    If you'd like to discuss a project or collaboration, I'd be glad to connect.
+    If you need BIM/VDC support-coordination, scan-to-BIM, as-built documentation, or BIM execution planning-I'd be glad to connect.
 </p>
 `;
